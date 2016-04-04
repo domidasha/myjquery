@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>my jQuery</title>
+		<meta charset="utf-8">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="myscript.js"></script>
+		
+		<style>
+			.blockRed { cursor: pointer;}
+			.green { background-color: #9f3;}
+			.red { background-color: red;}
+		</style>
+
+	</head>
+	<body>
+		<div >
+			<h1> jQuery Selectors</h1>
+
+			<p>jQuery selectors allow you to select and manipulate HTML element(s).</p>
+
+			<button class="hide">hide</button>
+			<button class="show">show</button>
+				
+				<div class="grey">
+					* to Hide the picture press Right Button
+				</div>
+
+			<p><a href="http://www.w3schools.com/jquery/jquery_ref_selectors.asp" target="_blank">jQuery</a> selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.</p>
+
+			<p class="lastOne">All selectors in <a href="http://www.w3schools.com/jquery/jquery_selectors.asp" target="_blank">jQuery</a> start with the dollar sign and parentheses: $().</p>
+
+			<img src="pic.jpg" alt="baloons">
+
+			<ul>
+				<li>$("*")</li>
+				<li>$(this)</li>
+				<li>$("p.intro")</li>
+				<li>$("p:first")</li>
+				<li>$("ul li:first")</li>
+			</ul>
+			<div class="blockRed">
+				This blok changes it's color!
+			</div>
+			<input type="text">
+		</div>
+	</body>
+</html> 
